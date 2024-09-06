@@ -25,7 +25,7 @@ This app uses Mediapipe to process training videos of powerlifters (MP4 format) 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/powerlifting-app.git
+   git clone https://github.com/haoruo-zhang/powerlifting-app.git
    cd powerlifting-app
    ```
 
