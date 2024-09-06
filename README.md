@@ -19,7 +19,7 @@ This app uses Mediapipe to process training videos of powerlifters (MP4 format) 
 - Python 3.8+
 - Mediapipe
 - OpenCV
-- Tkinter (for desktop UI) or Flask (for web UI)
+- Tkinter (for desktop UI) or Flask (for web UI) (If I get time to do this...)
 
 ### Steps to Set Up
 
