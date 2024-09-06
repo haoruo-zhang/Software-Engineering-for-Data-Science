@@ -4,6 +4,10 @@
 ## Overview
 This app uses Mediapipe to process training videos of powerlifters (MP4 format) and provides visual analysis of both the barbell movement path and the athlete's body structure during lifts. By leveraging Mediapipe's pose estimation capabilities, the app identifies key body joints and tracks their movement throughout the lift.
 
+![pose_tracking_example.gif](https://mediapipe.dev/images/mobile/pose_tracking_example.gif) |
+:----------------------------------------------------------------------: |
+*Example of MediaPipe Pose for pose tracking.*                    |
+
 ## Features
 - **Barbell Path Tracking**: Detects and visualizes the barbell’s movement.
 - **Body Structure Detection**: Tracks key body joints (shoulders, elbows, hips, knees, etc.).
