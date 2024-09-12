@@ -16,7 +16,7 @@ I am a professional powerlifter and the Asian junior bench press record holder. 
 *Example of Barbell Path tracking.*                    |
 
 ## Data source
-- **To train the model, I plan to use fixed-angle videos of squat, bench press and deadlift as input for pose tracking. I realized that in the IPF World Championships, athletes' lifts are filmed from fixed camera angles. We can download recorded competition videos from YouTube, perform feature recognition on the videos, and then crop them accordingly, e.g. https://www.youtube.com/watch?v=x0dt2-LMp80&t=1957s
+- To train the model, I plan to use fixed-angle videos of squat, bench press and deadlift as input for pose tracking. I realized that in the IPF World Championships, athletes' lifts are filmed from fixed camera angles. We can download recorded competition videos from YouTube, perform feature recognition on the videos, and then crop them accordingly, e.g. https://www.youtube.com/watch?v=x0dt2-LMp80&t=1957s
 ## Features
 - **Barbell Path Tracking**: Detects and visualizes the barbell’s movement.
 - **Body Structure Detection**: Tracks key body joints (shoulders, elbows, hips, knees, etc.).
