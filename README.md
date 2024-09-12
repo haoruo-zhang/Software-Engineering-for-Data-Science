@@ -2,7 +2,7 @@
 # Powerlifting Barbell and Body Structure Tracking App
 
 ## Overview
-This app uses Mediapipe to process training videos of powerlifters (MP4 format) and provides visual analysis of both the barbell movement path and the athlete's body structure during lifts. By leveraging Mediapipe's pose estimation capabilities, the app identifies key body joints and tracks their movement throughout the lift.
+I am a professional powerlifter and the Asian youth bench press record holder. I want to use what I've learned to improve my performance. Instead of relying on personal experience, I am more interested in understanding my body mechanics and barbell path during training. Through biomechanical analysis, I want to learn more efficient movement patterns based on my body's structure. That's why I came up with the idea to develop Titan Track. This app uses Mediapipe to process training videos of powerlifters (MP4 format) and provides a visual analysis of both the barbell movement path and the athlete's body structure during lifts. By leveraging Mediapipe's pose estimation capabilities, the app identifies key body joints and tracks their movement throughout the lift. If I have more time, I would like to use the identified key body joints for biomechanical analysis to explore what movements are more efficient for each individual, considering different joint proportions.
 
 ![pose_tracking_example.gif](https://mediapipe.dev/images/mobile/pose_tracking_example.gif) |
 :----------------------------------------------------------------------: |
@@ -14,6 +14,7 @@ This app uses Mediapipe to process training videos of powerlifters (MP4 format) 
 ## Features
 - **Barbell Path Tracking**: Detects and visualizes the barbell’s movement.
 - **Body Structure Detection**: Tracks key body joints (shoulders, elbows, hips, knees, etc.).
+- **Biomechanical Analysis (In the future)**: Apply biomechanical analysis.
 - **User-friendly Interface**: Upload an MP4 video and get visual feedback on performance.
 
 ## Installation
@@ -24,35 +25,7 @@ This app uses Mediapipe to process training videos of powerlifters (MP4 format) 
 - OpenCV
 - Tkinter (for desktop UI) or Flask (for web UI) (If I get time to do this...)
 
-### Steps to Set Up
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/haoruo-zhang/powerlifting-app.git
-   cd powerlifting-app
-   ```
-
-2. Install the required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Ensure you have the correct versions of OpenCV and Mediapipe:
-   ```bash
-   pip install opencv-python mediapipe
-   ```
-
-4. Run the app (for desktop version):
-   ```bash
-   python app.py
-   ```
-
-   Or for the web version:
-   ```bash
-   flask run
-   ```
-
-## How the App Works
+## How the App Works (It should be like this -,-)
 
 ### 1. Video Input
    - The user uploads a training video in MP4 format.
