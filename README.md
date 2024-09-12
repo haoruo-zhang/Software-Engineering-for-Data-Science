@@ -8,7 +8,7 @@ This app uses Mediapipe to process training videos of powerlifters (MP4 format) 
 :----------------------------------------------------------------------: |
 *Example of MediaPipe Pose for pose tracking.*                    |
 
-![barbell_path_tracking_example.png]((https://thebarbellphysio.com/wp-content/uploads/2020/03/Iron-Path-and-Keelo-bar-path-tracking-278x300.png) |
+![barbell_path_tracking_example.png](https://thebarbellphysio.com/wp-content/uploads/2020/03/Iron-Path-and-Keelo-bar-path-tracking-278x300.png) |
 :----------------------------------------------------------------------: |
 *Example of Barbell Path tracking.*                    |
 ## Features
