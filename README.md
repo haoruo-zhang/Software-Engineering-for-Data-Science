@@ -2,9 +2,8 @@
 # Titan Track
 ## Overview
 
-![pose_tracking_example.gif](https://github.com/user-attachments/assets/4d4b25af-e9c9-4914-b5e9-5b5e6d73a3e2)|
-:----------------------------------------------------------------------: |
-*My participation in the IPF World Championship in 2024 in Lithuania.*                    |
+<img src="https://github.com/user-attachments/assets/4d4b25af-e9c9-4914-b5e9-5b5e6d73a3e2" alt="pose_tracking_example" width="300"/>
+
 
 I am a professional powerlifter and the Asian junior bench press record holder. I want to use what I've learned to improve my performance. Instead of relying on personal experience, I am more interested in understanding my body mechanics and barbell path during training. Through biomechanical analysis, I want to learn more efficient movement patterns based on my body's structure. That's why I came up with the idea to develop Titan Track. This app uses Mediapipe to process training videos of powerlifters (MP4 format) and provides a visual analysis of both the barbell movement path and the athlete's body structure during lifts. By leveraging Mediapipe's pose estimation capabilities, the app identifies key body joints and tracks their movement throughout the lift. If I have more time, I would like to use the identified key body joints for biomechanical analysis to explore what movements are more efficient for each individual, considering different joint proportions.
 
