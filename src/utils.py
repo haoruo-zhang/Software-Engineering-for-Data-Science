@@ -72,9 +72,18 @@ def determine_side(side,left_shoulder,left_hip,left_knee,left_ankle, right_shoul
     return side,selected_shoulder,selected_hip,selected_knee,selected_ankle
 
 
-def plot_dynamic_chart(time_values, speed_values, knee_angles, hip_angles):
+def plot_dynamic_chart(time_values, speed_values, knee_angles, hip_angles,video_length_seconds):
     """绘制动态图表并返回BGR格式图像"""
     fig, ax = plt.subplots(3, 1, figsize=(5, 12))
+
+    ax[0].set_xlim([0, video_length_seconds])
+    ax[1].set_xlim([0, video_length_seconds])
+    ax[2].set_xlim([0, video_length_seconds])
+
+
+    ax[0].set_ylim([-1000,1000])
+    ax[1].set_ylim([0, 180])  # 膝盖角度通常在 0 到 180 度之间
+    ax[2].set_ylim([0, 180])  # 髋部角度通常也在 0 到 180 度之间
 
     ax[0].plot(time_values, speed_values, label='Rise Speed (px/s)', color='b')
     ax[0].set_xlabel('Time (s)')
